@@ -126,4 +126,15 @@ button {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #c1be00;
+}
+
+button:not(:disabled):active {
+    /* transform: translateY(2px);
+    transform: translateX(1px); */
+    transform: translate(1px, 1px);
 }
