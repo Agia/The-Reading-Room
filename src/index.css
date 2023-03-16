@@ -48,3 +48,12 @@ body {
   background-color: var(--dark);
 
 }
+
+.linkstyle {
+  text-decoration: none;
+  color: hsla(206, 47%, 97%, 0.969);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  padding: 10px 50px;
+}
+
