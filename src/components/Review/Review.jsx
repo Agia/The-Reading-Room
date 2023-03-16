@@ -94,7 +94,7 @@ const Review = () => {
 
                         </div>
                         </div>
-                            <button type="submit">Save</button>
+                        <button type="submit">Save</button>
                     </form>
             </div>
         </div>

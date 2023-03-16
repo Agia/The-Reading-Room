@@ -20,15 +20,15 @@
 }
 
 h2 {
-    margin: 7rem 0 4rem;
+    margin: 7rem auto 1rem;
     font-family: var(--header);
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 .book-review {
     display: flex;
     flex-direction: row;
-    margin: 2rem;
+    margin: 0.5rem 2rem;
     justify-content: space-around;
 }
 
@@ -38,6 +38,11 @@ h2 {
     /* margin: auto 0; */
     flex-wrap: wrap;
     justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 .left-page, .right-page {
@@ -67,10 +72,11 @@ label {
     font-size: 1.4rem;
     font-weight: 600;
     color: var(--dark);
+    margin: 0 auto;
 }
 
 input {
-    margin: 0.5rem 1.5rem 3rem;
+    margin: 0.5rem auto 3rem;
     padding: 1rem;
     width: 300px;
     background-color: var(--gr-light);
@@ -112,7 +118,7 @@ button {
     background-color: var(--color);
     border: none;
     padding: 1rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
     width: 18rem;
     color: var(--dark);
     font-family: var(--header);
@@ -120,4 +126,15 @@ button {
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 20px;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #c1be00;
+}
+
+button:not(:disabled):active {
+    /* transform: translateY(2px);
+    transform: translateX(1px); */
+    transform: translate(1px, 1px);
 }
