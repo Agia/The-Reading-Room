@@ -2,10 +2,10 @@
 
 
 /** VARIABLES **/
+/* Added some base variables we can change to whatever global styles we decide on */
 :root {
-  --light: #efefef;
+  --light: #ffefe2;
   --dark: #242424;
-  /* --color1: dodgerblue; */
   --header: serif;
   --body: 'Menlo';
 }
