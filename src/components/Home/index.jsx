@@ -11,7 +11,7 @@ const Home = () => {
             <a href="./review">
             <button>Review now</button>
             </a>
-            <a href="./notes">
+            <a href="./readinglist">
             <button id = "reading-list">Your Reading list</button>
             </a>
             <p id = "quote1" class = "bg-text">"If you don’t like to read, you haven’t found the right book."</p>
