@@ -3,7 +3,7 @@
 <h1 align="center">The Reading Room</h1>
 
   <p align="center">
-    A web application to review and make / save notes on books you've read, and keep track of books you'd like to read.
+    A web application to make and save notes on books you've read, and keep track of books you'd like to read.
     <br />
 <a href="https://agia.github.io/The-Reading-Room/"><strong>View Demo</strong></a>
 <strong>||</strong>
@@ -12,14 +12,14 @@
     <a href="https://github.com/Agia/The-Reading-Room/issues">Request Feature</a>
   </p>
 
-  <img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=violet&style=for-the-badge" />
+  <img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=orange&style=for-the-badge" />
 </div>
 
 <br />
 
 ## Table of Contents
 <details>
-  <summary><strong>Expand TOC...</strong></summary>
+  <summary><strong>Click to Expand TOC...</strong></summary>
   <ol>
     <li>
       <a href="#description">Description</a>
@@ -35,9 +35,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#background">Background</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 <br />
@@ -45,7 +43,11 @@
 
 ## Description
 
-TODO
+A single page web app that allows a user to save notes on books they have read, and retrieve them for review or editing later.
+
+Users can also add to a reading list to keep track of books they would like to read, and review that list.
+
+Built with React.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,30 +98,14 @@ You'll need to have Node.js `18.x` (or higher) installed on your system (you can
 
 ### Screenshots
 <!-- TODO: Upload GIF --->
-- The screenshot below demonstrates the web application in use, navigating from section to section.
-![Gif demonstrating a user navigating through the web app](./src/assets/img/screenshot.gif)
+- The screenshot below shows the web app's user interface.
+![Screenshot showing the user interface of the web app](./src/assets/img/screenshot.gif)
 
 <hr/>
 
-## Background
-<!-- TODO -->
-TODO
-
-<br/>
-
 ## License
-<img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=violet&style=for-the-badge" />
+<img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=orange&style=for-the-badge" />
 
 Distributed under the MIT License.
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
-<br/>
-
-## Acknowledgments
-<!-- TODO -->
-* [TODO]()
-* []()
-* []()
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
