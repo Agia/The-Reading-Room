@@ -16,8 +16,7 @@ function NavBar() {
   return (
     <LinkContainer>
       <Link className='linkstyle' to="/the-reading-room/">Home</Link>
-      <Link className='linkstyle' to="/the-reading-room/ReadingList">Reading list</Link>
-      <Link className='linkstyle' to="/the-reading-room/notes"></Link>
+      <Link className='linkstyle' to="/the-reading-room/readinglist">Reading list</Link>
       <Link className='linkstyle' to="/the-reading-room/review">Review</Link>
     </LinkContainer>
   )

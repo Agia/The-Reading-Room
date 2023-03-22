@@ -11,8 +11,9 @@ function App() {
         {/* <Review /> */}
       <Router> 
         <NavBar />
+        
           <Routes baseline= 'the-reading-room/'>
-            <Route exact path='/the-reading-room/home' element={<Home/>}/>
+            <Route exact path='/the-reading-room/' element={<Home/>}/>
             {/* <Route  exact path = "/the-reading-room/note" element = {<Note/>} /> */}
             <Route exact path = '/the-reading-room/readinglist' element = {<ReadingList />}/>
             <Route exact path = '/the-reading-room/review' element = {<Review/>}/>

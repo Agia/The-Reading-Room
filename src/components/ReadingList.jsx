@@ -40,7 +40,7 @@
         <form onSubmit={onSubmit}>
           <h2>Title</h2>
           <input
-            id='title'
+            className='inputs'
             type="text"
             placeholder='Title'
             name='title'
