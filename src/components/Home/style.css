@@ -1,16 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+:root {
+    --secondary-color: yellow;
+}
+
+/* stylings for the whole page */
 #home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(24, 24, 24);
     height: 100vh;
 }
 
-h1 {
-    display: block;
-    color: aliceblue
+html { 
+    margin: 0 auto;
+    max-width: 1100px;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 1vh;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20vh;
+}
+
+/* stylings for the two buttons */
 button {
-    display: block;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 15px var(--secondary-color), 00px 0 30px var(--secondary-color);
+}
+
+#reading-list {
+    display: flex;
+    align-items: center;
+    border: solid 2px var(--secondary-color);
+    border-radius: 3%;
+    background:transparent;
+    color: var(--secondary-color); 
+}
+
+#reading-list:hover {
+    box-shadow: inset 0px 0px 15px var(--secondary-color), 00px 0 30px var(--secondary-color);
+}
+
+/* stylings for the background text */
+.bg-text {
+    overflow: hidden;
+    padding: 20px 20px 100px 20px;
+    content: "Background text";
+    color: #C0C0C0;
+    font-size: larger;
+    font-family: 'Merriweather', serif;
+    opacity: 0.4;
+}
+
+#quote1 {
+    position: absolute;
+    -webkit-transform: rotate(-20deg);
+    top: 40vh;
+    left: 20px;
+    margin-top: 5vh;
+}
+
+#quote2 {
+    position: absolute;
+    -webkit-transform: rotate(6deg);
+    top: 250px;
+    right: -10px;
+    margin-top: 5vh;
+}
+
+#quote3 {
+    position: absolute;
+    -webkit-transform: rotate(3deg);
+    top: 230px;
+    left: -10px;
+    margin-top: 5vh;
+    font-size: 12px;
+    margin-right: 80vh
+}
+
+#quote4 {
+    position: absolute;
+    right: 3px;
+    -webkit-transform: rotate(-12deg);
+}
+
+#quote6 {
+    position: absolute;
+    top: 7vh;
+}
+
+#quote5{
+    position: absolute;
+    top: 100vh;
+    -webkit-transform: rotate(-12deg); 
+}
+
+/* Media querys for page width*/
+@media only screen and (max-width: 900px) {
+    .bg-text {
+        display: none;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #quote3 {
+        display: none;
+    }
+    #quote1 {
+        left: auto;
+    }
+    #quote2 {
+        left: 60%;
+        max-width: 300px;
+    }
+    #quote7 {
+        position: absolute;
+        -webkit-transform: rotate(12deg);
+    }
+    #quote8 {
+        position: absolute;
+        top: 770px;
+        max-width: 1100px;
+    }
+    #quote4 {
+        top: 580px;
+        max-width: 500px;
+        left: 51%;
+    }
+}
+
+/* Media querys for page height*/
+@media screen and (max-height: 900px) {
+    #quote3 {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .bg-text {
+        display: none;
+    }
 }
