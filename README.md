@@ -61,7 +61,7 @@ Built with React.
 
 ## Getting Started
 
-If you'd like to view the live version, you can follow [**this link**](https://agia.github.io/The-Reading-Room/).
+If you'd like to view the live version, you can follow [**this link**](https://agia.github.io/The-Reading-Room/) or the Netlify deployment [here](https://profound-lily-483e79.netlify.app/).
 
 To get a local copy up and running follow the steps outlined below.
 
