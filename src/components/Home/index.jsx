@@ -12,8 +12,8 @@ const Home = () => {
             <h1>The Reading Room</h1>
             <h3>What are you reading?</h3>
 
-            <Link className='linkstyle' to="/the-reading-room/readinglist/" element={<ReadingList/>}><button id = "reading-list">Your Reading list</button></Link>
-            <Link className='linkstyle' to="/the-reading-room/booknotes/" element={<BookNote/>}><button>Book Notes</button></Link>
+            <Link className='linkstyle' to="/readinglist" element={<ReadingList/>}><button id = "reading-list">Your Reading list</button></Link>
+            <Link className='linkstyle' to="/booknotes" element={<BookNote/>}><button>Book Notes</button></Link>
 
             {/* <a href="/booknotes">
             <button>Review now</button>
