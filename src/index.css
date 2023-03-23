@@ -6,7 +6,7 @@
 :root {
   --light: #ffefe2;
   --dark: #242424;
-  --header: serif;
+  --header: 'Poppins';
   --body: 'Menlo';
 }
 
@@ -53,6 +53,7 @@ body {
   text-decoration: none;
   color: hsla(206, 47%, 97%, 0.969);
   font-family: 'Poppins', sans-serif;
+  font-weight: 700;
   font-size: 15px;
   padding: 10px 50px;
 }
