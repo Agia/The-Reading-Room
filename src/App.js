@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 // import Note from './components/Note';
 import Home from './components/Home';
 import ReadingList from './components/ReadingList';
-import Review from './components/BookNote/BookNote';
+import BookNote from './components/BookNote/BookNote';
 
 function App() {
   return(
@@ -14,7 +14,7 @@ function App() {
           <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/readinglist" element={<ReadingList/>}/>
-          <Route path="/booknotes" element={<Review/>}/>
+          <Route path="/booknotes" element={<BookNote/>}/>
           <Route path="*" element={<Navigate to="/" />} />
             {/* <Route exact path='/the-reading-room/' element={<Home/>}/> */}
             {/* <Route  exact path = "/the-reading-room/note" element = {<Note/>} /> */}

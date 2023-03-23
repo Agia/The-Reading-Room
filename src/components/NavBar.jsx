@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import Home from './Home';
 import ReadingList from './ReadingList';
-import Review from './BookNote/BookNote';
+import BookNote from './BookNote/BookNote';
 
 const LinkContainer = styled.div`
   display:flex;
@@ -20,9 +20,9 @@ function NavBar() {
     <LinkContainer>
       <Link className='linkstyle' to="/" element={<Home/>}>Home</Link>
       <Link className='linkstyle' to="/readinglist" element={<ReadingList/>}>Reading List</Link>
-      <Link className='linkstyle' to="/booknotes" element={<Review/>}>Book Notes</Link>
+      <Link className='linkstyle' to="/booknotes" element={<BookNote/>}>Book Notes</Link>
     </LinkContainer>
   )
 }
 
-export default NavBar
+export default NavBar;
