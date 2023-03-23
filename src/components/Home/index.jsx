@@ -8,10 +8,10 @@ const Home = () => {
         <div id = "home">
             <h1>The Reading Room</h1>
             <h3>What are you reading?</h3>
-            <a href="./booknotes">
+            <a href="/booknotes">
             <button>Review now</button>
             </a>
-            <a href="./readinglist">
+            <a href="/readinglist">
             <button id = "reading-list">Your Reading list</button>
             </a>
             <p id = "quote1" class = "bg-text">"If you don’t like to read, you haven’t found the right book."</p>
