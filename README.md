@@ -97,9 +97,9 @@ You'll need to have Node.js `18.x` (or higher) installed on your system (you can
 - You're good to go!
 
 ### Screenshots
-<!-- TODO: Upload GIF --->
-- The screenshot below shows the web app's user interface.
-![Screenshot showing the user interface of the web app](./src/assets/img/screenshot.gif)
+
+- The screenshot below shows the web app's home page.
+![Screenshot showing the home page of the web app](./src/assets/screenshot.png)
 
 <hr/>
 
