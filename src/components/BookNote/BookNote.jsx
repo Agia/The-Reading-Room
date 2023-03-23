@@ -4,7 +4,7 @@ import { useFormik } from "formik";
 import "./style.css";
 
 
-const Review = () => {
+const BookNote = () => {
     // const [bookTitle, getBookTitle] = useState("");
     // const [author, getAuthor] = useState("");
     const formik = useFormik({
@@ -16,17 +16,15 @@ const Review = () => {
             notes: "",
         },
         onSubmit: values => {
-            // TODO: Convert to storage & modal / button change
-            // alert(JSON.stringify(values, null, 2));
+            // console.log(JSON.stringify(values, null, 2));
             alert("Saved");
             console.log(values);
-            // values = "";
         },
     });
 
     return (
         <div id="review">
-            <h2>Book Review</h2>
+            <h2>Book Notes</h2>
             <div className="book-review">
                     <form onSubmit={formik.handleSubmit}>
                         <div className="page-layout">
@@ -54,7 +52,7 @@ const Review = () => {
                                 id="summary"
                                 name="summary"
                                 type="text"
-                                rows="8"
+                                rows="7"
                                 onChange={formik.handleChange}
                                 value={formik.values.summary}
                             />
@@ -87,7 +85,7 @@ const Review = () => {
                                 name="notes"
                                 type="text"
                                 cols="50"
-                                rows="40"
+                                rows="25"
                                 onChange={formik.handleChange}
                                 value={formik.values.notes}
                             />
@@ -101,4 +99,4 @@ const Review = () => {
     )
 }
 
-export default Review;
+export default BookNote;

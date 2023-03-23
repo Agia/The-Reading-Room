@@ -8,7 +8,7 @@ const Home = () => {
         <div id = "home">
             <h1>The Reading Room</h1>
             <h3>What are you reading?</h3>
-            <a href="./review">
+            <a href="./booknotes">
             <button>Review now</button>
             </a>
             <a href="./readinglist">

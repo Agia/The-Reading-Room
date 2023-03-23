@@ -36,7 +36,7 @@
 
     return (
       <>
-        <div>Reading list</div>
+        {/* <div>Reading list</div> */}
         <form onSubmit={onSubmit}>
           <h2>Title</h2>
           <input
