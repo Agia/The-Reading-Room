@@ -5,7 +5,7 @@
   <p align="center">
     A web application to make and save notes on books you've read, and keep track of books you'd like to read.
     <br />
-<a href="https://agia.github.io/The-Reading-Room/"><strong>View Demo</strong></a>
+<a href="https://profound-lily-483e79.netlify.app//"><strong>View Demo</strong></a>
 <strong>||</strong>
     <a href="https://github.com/Agia/The-Reading-Room/issues">Report Bug</a>
     <strong>||</strong>
@@ -61,7 +61,7 @@ Built with React.
 
 ## Getting Started
 
-If you'd like to view the live version, you can follow [**this link**](https://agia.github.io/The-Reading-Room/) or the Netlify deployment [here](https://profound-lily-483e79.netlify.app/).
+If you'd like to view the live version, you can follow [**this link**](https://profound-lily-483e79.netlify.app/) to the Netlify deployment.
 
 To get a local copy up and running follow the steps outlined below.
 
