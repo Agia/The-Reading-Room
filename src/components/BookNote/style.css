@@ -21,7 +21,7 @@
 }
 
 h2 {
-    margin: 3rem auto 1rem;
+    margin: 2rem auto 1rem;
     font-family: var(--header);
     font-size: 2.4rem;
 }
@@ -29,7 +29,7 @@ h2 {
 .book-review {
     display: flex;
     flex-direction: row;
-    margin: 0.5rem 2rem;
+    margin: 0 2rem 0.5rem;
     justify-content: space-around;
 }
 
@@ -50,9 +50,9 @@ form {
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin: 2rem 0;
+    margin: 1rem 0;
     background-color: var(--light);
-    padding: 2rem 1rem;
+    padding: 1rem;
     border-radius: 25px;
 }
 
@@ -70,22 +70,22 @@ form {
 
 label {
     font-family: var(--header);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--dark);
     margin: 0 auto;
 }
 
 input {
-    margin: 0.5rem auto 3rem;
-    padding: 1rem;
+    margin: 0.5rem auto 1.5rem;
+    padding: 0.7rem 1rem;
     width: 300px;
     background-color: var(--gr-light);
     /* background-color: transparent; */
     border-radius: 20px;
     border: none;
     border-bottom: 7px var(--dark) solid;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: var(--body);
 }
 
@@ -97,7 +97,7 @@ input[type=range] {
 
 textarea {
     resize: none;
-    margin: 2rem 0;
+    margin: 1rem 0;
     padding: 1rem;
     background-color: var(--gr-light);
     border-radius: 20px;
@@ -117,9 +117,10 @@ textarea {
 
 button {
     background-color: var(--color);
-    border: none;
-    padding: 1rem;
-    margin: 2rem auto;
+    /* border: none; */
+    border: 2px var(--dark) solid;
+    padding: 0.5rem;
+    margin: 1rem auto;
     width: 18rem;
     color: var(--dark);
     font-family: var(--header);

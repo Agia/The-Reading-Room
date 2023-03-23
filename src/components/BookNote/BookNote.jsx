@@ -52,7 +52,7 @@ const BookNote = () => {
                                 id="summary"
                                 name="summary"
                                 type="text"
-                                rows="7"
+                                rows="3"
                                 onChange={formik.handleChange}
                                 value={formik.values.summary}
                             />
@@ -85,14 +85,15 @@ const BookNote = () => {
                                 name="notes"
                                 type="text"
                                 cols="50"
-                                rows="25"
+                                rows="15"
                                 onChange={formik.handleChange}
                                 value={formik.values.notes}
                             />
 
+<button type="submit">Save</button>
+
                         </div>
                         </div>
-                        <button type="submit">Save</button>
                     </form>
             </div>
         </div>
