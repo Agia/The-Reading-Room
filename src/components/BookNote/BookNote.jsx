@@ -5,8 +5,7 @@ import "./style.css";
 
 
 const BookNote = () => {
-    // const [bookTitle, getBookTitle] = useState("");
-    // const [author, getAuthor] = useState("");
+
     const formik = useFormik({
         initialValues: {
             bookTitle: "",
