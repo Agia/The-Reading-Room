@@ -18,9 +18,9 @@ const LinkContainer = styled.div`
 function NavBar() {
   return (
     <LinkContainer>
-      <Link className='linkstyle' to="/" element={<Home/>}>Home</Link>
-      <Link className='linkstyle' to="/readinglist" element={<ReadingList/>}>Reading List</Link>
-      <Link className='linkstyle' to="/booknotes" element={<BookNote/>}>Book Notes</Link>
+      <Link className='linkstyle' to="/the-reading-room/" element={<Home/>}>Home</Link>
+      <Link className='linkstyle' to="/the-reading-room/readinglist/" element={<ReadingList/>}>Reading List</Link>
+      <Link className='linkstyle' to="/the-reading-room/booknotes/" element={<BookNote/>}>Book Notes</Link>
     </LinkContainer>
   )
 }

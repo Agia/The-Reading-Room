@@ -1,5 +1,8 @@
 //Imports
 import React from "react";
+import { Link } from 'react-router-dom';
+import BookNote from "../BookNote/BookNote";
+import ReadingList from "../ReadingList";
 import "./style.css";
 
 //Landing section code
@@ -8,12 +11,16 @@ const Home = () => {
         <div id = "home">
             <h1>The Reading Room</h1>
             <h3>What are you reading?</h3>
-            <a href="/booknotes">
+
+            <Link className='linkstyle' to="/the-reading-room/readinglist/" element={<ReadingList/>}><button id = "reading-list">Your Reading list</button></Link>
+            <Link className='linkstyle' to="/the-reading-room/booknotes/" element={<BookNote/>}><button>Book Notes</button></Link>
+
+            {/* <a href="/booknotes">
             <button>Review now</button>
             </a>
             <a href="/readinglist">
             <button id = "reading-list">Your Reading list</button>
-            </a>
+            </a> */}
             <p id = "quote1" class = "bg-text">"If you don’t like to read, you haven’t found the right book."</p>
             <p id = "quote2" class = "bg-text">"Never trust anyone who has not brought a book with them."</p>
             <p id = "quote3" class = "bg-text">"Of course anyone who truly loves books buys more of them than he or she can hope to read in one fleeting lifetime. A good book, resting unopened in its slot on a shelf, full of majestic potentiality, is the most comforting sort of intellectual wallpaper."</p>
